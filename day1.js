@@ -21,3 +21,25 @@ for (let n = 1; n <= 100; n++) {
   
   console.log(output || n);
 }
+
+// challange was to creat a trinagle using hashtags:
+//  # # # #
+// # # # #
+//  # # # #
+// # # # #
+let size = 8;
+
+let sqr = "";
+
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
+    if ((x + y) % 2 == 0) {
+      sqr += " ";
+    } else {
+      sqr += "#";
+    }
+  }
+  sqr += "\n";
+}
+
+console.log(sqr);
