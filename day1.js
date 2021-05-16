@@ -62,4 +62,4 @@ const hummas = function(factor) {
     ingredient(0.5, "teaspoon", "cumin");
 }
 
-hummas(4)
+hummas(3)
