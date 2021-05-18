@@ -44,7 +44,7 @@ for (let y = 0; y < size; y++) {
 
 console.log(sqr);
 
-// found an interesting function for understanding Nested Scope
+// found an interesting function for understanding Nested Scopes
 
 const hummas = function(factor) {
     const ingredient = function(amount, unit, name) {
@@ -62,4 +62,4 @@ const hummas = function(factor) {
     ingredient(0.5, "teaspoon", "cumin");
 }
 
-hummas(3)
+hummas(5)
