@@ -63,3 +63,15 @@ const hummas = function(factor) {
 }
 
 hummas(3)
+
+// a function that calls itself is called RECURSIVE
+
+function power(base, exponent) {
+  if (exponent == 0) {
+    return 1;
+  } else {
+    return base * power(base, exponent - 1);
+  }
+}
+
+console.log(power(2,3))
