@@ -74,7 +74,7 @@ function power(base, exponent) {
   }
 }
 
-console.log(power(2,3))
+console.log(power(2,4))
 
 // Recursion in findin a short sequence to the number specifed
 
