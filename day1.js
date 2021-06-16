@@ -62,7 +62,7 @@ const hummas = function(factor) {
     ingredient(0.5, "teaspoon", "cumin");
 }
 
-hummas(5)
+hummas(2)
 
 // a function that calls itself is called RECURSIVE
 
