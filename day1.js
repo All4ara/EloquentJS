@@ -18,7 +18,7 @@ for (let n = 1; n <= 100; n++) {
   if (n % 3 == 0 && n % 5 == 0) output += "FizzBuzz";
   else if (n % 3 == 0) output += "Fizz";
   else if (n % 5 == 0) output += "Buzz";
-  
+
   console.log(output || n);
 }
 
@@ -46,23 +46,23 @@ console.log(sqr);
 
 // found an interesting function for understanding Nested Scopes
 
-const hummas = function(factor) {
-    const ingredient = function(amount, unit, name) {
-        let ingredientAmount = amount * factor;
-        if (ingredientAmount > 1) {
-            unit += "s";
-        }
-        console.log(`${ingredientAmount} ${unit} ${name}`);
+const hummas = function (factor) {
+  const ingredient = function (amount, unit, name) {
+    let ingredientAmount = amount * factor;
+    if (ingredientAmount > 1) {
+      unit += "s";
     }
-    ingredient(1, "can", "chickpeas");
-    ingredient(0.25, "cup", "tahini");
-    ingredient(0.25, "cup", "lemon juice");
-    ingredient(1, "clove", "garlic");
-    ingredient(2, "tablespoon", "olive oil");
-    ingredient(0.5, "teaspoon", "cumin");
+    console.log(`${ingredientAmount} ${unit} ${name}`);
+  }
+  ingredient(1, "can", "chickpeas");
+  ingredient(0.25, "cup", "tahini");
+  ingredient(0.25, "cup", "lemon juice");
+  ingredient(1, "clove", "garlic");
+  ingredient(2, "tablespoon", "olive oil");
+  ingredient(0.5, "teaspoon", "cumin");
 }
 
-hummas(2)
+hummas(3)
 
 // a function that calls itself is called RECURSIVE
 
@@ -74,7 +74,7 @@ function power(base, exponent) {
   }
 }
 
-console.log(power(2,4))
+console.log(power(2, 4))
 
 // Recursion in findin a short sequence to the number specifed
 
