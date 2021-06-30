@@ -62,7 +62,7 @@ const hummas = function (factor) {
   ingredient(0.5, "teaspoon", "cumin");
 }
 
-hummas(2)
+hummas(3)
 
 // a function that calls itself is called RECURSIVE
 
@@ -91,4 +91,4 @@ function findSolution(target) {
   return find(1, "1");
 }
 
-console.log(findSolution(21))
+console.log(findSolution(24))
